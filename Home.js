@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         marginVertical: 8,
         backgroundColor: "#1c1c1c", // Darker shade for cards
         shadowColor: "#fff",
-        shadowOpacity: 0.4,
+        shadowOpacity: 0.2,
         shadowRadius: 4,
         elevation: 3,
     },
