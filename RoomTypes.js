@@ -59,6 +59,9 @@ const RoomTypes = ({ route, navigation }) => {
             <View>
                 <Button title="Back" onPress={() => navigation.goBack()} />
             </View>
+            <View>
+                <Button title="Back to Home" onPress={() => navigation.navigate('Home')} />
+            </View>
         </View>
     );
 };
