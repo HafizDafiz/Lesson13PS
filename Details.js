@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 15,
-        backgroundColor: "#000", // Black background
+        backgroundColor: "#000",
         justifyContent: 'space-between',
     },
     detailStyle: {
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         padding: 15,
         marginVertical: 8,
-        backgroundColor: "#1c1c1c", // Darker shade for details
+        backgroundColor: "#1c1c1c",
         shadowColor: "#fff",
         shadowOpacity: 0.2,
         shadowRadius: 4,
@@ -24,11 +24,11 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: "bold",
         marginBottom: 10,
-        color: "#fff", // White text
+        color: "#fff",
     },
     text: {
         fontSize: 16,
-        color: "#fff", // White text for details
+        color: "#fff",
         marginVertical: 5,
     },
     loadingText: {
@@ -41,17 +41,17 @@ const styles = StyleSheet.create({
         marginRight: 10,
     },
     buttonContainer: {
-        marginTop: 20, // Add margin to the top of the button container
+        marginTop: 20,
     },
     buttonSpacing: {
-        marginBottom: 15, // Adds spacing between buttons
+        marginBottom: 15,
     },
 });
 
 const Details = ({ route, navigation }) => {
     const { town, year, roomType, records } = route.params;
 
-    // Find the selected data based on town, year, and roomType
+
     const selectedData = records.find(
         item => item.town === town && item.financial_year === year && item.room_type === roomType
     );

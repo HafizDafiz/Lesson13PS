@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 15,
-        backgroundColor: "#000", // Set background to black
+        backgroundColor: "#000",
         justifyContent: "space-between",
     },
     listStyle: {
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         padding: 15,
         marginVertical: 8,
-        backgroundColor: "#1c1c1c", // Darker shade for cards
+        backgroundColor: "#1c1c1c",
         shadowColor: "#fff",
         shadowOpacity: 0.2,
         shadowRadius: 4,
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: "bold",
         marginLeft: 10,
-        color: "#fff", // White text for better visibility
+        color: "#fff",
     },
     loadingText: {
         color: "#fff",
@@ -45,18 +45,18 @@ const Home = ({ navigation }) => {
             .then((response) => response.json())
             .then((json) => {
                 console.log(json);
-                setMyData(json.result.records); // API response adjustment
+                setMyData(json.result.records);
             })
             .catch((error) => console.error("Error fetching data:", error))
             .finally(() => setLoading(false));
     }, []);
 
-    // Get unique towns from data
+
     const towns = [...new Set(myData.map(item => item.town))];
 
     return (
         <View style={styles.container}>
-            <StatusBar/> {/* Hide status bar for full-screen black look */}
+            <StatusBar/>
 
             {loading ? (
                 <>

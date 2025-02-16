@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 15,
-        backgroundColor: "#000", // Black background
+        backgroundColor: "#000",
     },
     listStyle: {
         flexDirection: "row",
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         padding: 15,
         marginVertical: 8,
-        backgroundColor: "#1c1c1c", // Darker shade for cards
+        backgroundColor: "#1c1c1c",
         shadowColor: "#fff",
         shadowOpacity: 0.2,
         shadowRadius: 4,
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: "bold",
         marginLeft: 10,
-        color: "#fff", // White text
+        color: "#fff",
     },
     loadingText: {
         color: "#fff",
@@ -33,10 +33,10 @@ const styles = StyleSheet.create({
         marginTop: 20,
     },
     buttonContainer: {
-        marginTop: 20, // Add margin to the top of the button container
+        marginTop: 20,
     },
     buttonSpacing: {
-        marginBottom: 15, // Adds spacing between buttons
+        marginBottom: 15,
     },
 });
 
