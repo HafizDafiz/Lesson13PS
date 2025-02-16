@@ -40,7 +40,6 @@ Showcase the app’s interface with relevant screenshots. Add meaningful caption
 
 Provide a short demo video or walkthrough of the app.
 
-[![Watch Video](https://www.youtube.com/shorts/OgoNKtW6Kfg)
-
+[![Watch Video](https://img.youtube.com/vi/OgoNKtW6Kfg/0.jpg)](https://www.youtube.com/watch?v=OgoNKtW6Kfg)
 
 ---
