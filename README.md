@@ -1,38 +1,25 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/TUcDWe6b)
 # [HDB price check app]
 
-Welcome to the repository for **[App Name]**! This document serves as a guide for furnishing important details about your app. Update the sections below to provide a comprehensive and informative README.
-
-(**hint**: do replace placeholders like `[App Name]`, `[Description]`, `[Features]`, etc.)
-
----
-
 ## 📌 About This App
 
-Provide a **brief introduction** about your app. Explain what it does, who it is for, and why it is useful.
-
-Example:
-> **TaskManager** is a simple task-tracking app designed for students and professionals to manage daily to-dos efficiently. It provides features like reminders, priority sorting, and collaboration tools.
-
+This app is about checking the HDB prices of each town in Singapore. Users will be able to navigate between each town, each year, each room and find out the details of the searched housing prices.
 ---
 
 ## ✨ Notable Features
 
-List the key features of your app. Make sure to highlight what makes your app unique.
-
-Example:
-- 📅 **Task Scheduling** – Plan tasks with deadlines and reminders.
-- 🎨 **Customizable UI** – Choose from different themes and layouts.
-- 🔄 **Sync Across Devices** – Access tasks from multiple devices.
-- 🛠 **Offline Mode** – Works even without an internet connection.
-
+Real-Time Data – Access up-to-date housing price data sourced directly from government APIs.
+User-Friendly Interface – Easy navigation with clearly organized information for quick decision-making.
+Town-Based Search – Explore housing prices by selecting different towns.
+Yearly Breakdown – View housing prices categorized by financial year.
+Room Type Filtering – Compare prices based on different room types (e.g., 2-room, 3-room, etc.).
 ---
 
 ## 📸 Screenshots
 
 Showcase the app’s interface with relevant screenshots. Add meaningful captions for each screenshot.
 
-![Screenshot 1](./docs/placeholder.jpg)
+![Screenshot 1](./)
 > *Home Screen - Overview of tasks*
 
 ![Screenshot 2](./docs/placeholder2.jpg)
