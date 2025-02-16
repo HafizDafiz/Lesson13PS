@@ -40,6 +40,12 @@ const styles = StyleSheet.create({
     icon: {
         marginRight: 10,
     },
+    buttonContainer: {
+        marginTop: 20, // Add margin to the top of the button container
+    },
+    buttonSpacing: {
+        marginBottom: 15, // Adds spacing between buttons
+    },
 });
 
 const Details = ({ route, navigation }) => {
@@ -72,11 +78,13 @@ const Details = ({ route, navigation }) => {
                 </View>
             </View>
 
-            <View>
-                <Button title="Back" onPress={() => navigation.goBack()} />
-            </View>
-            <View>
-                <Button title="Back to Home" onPress={() => navigation.navigate('Home')} />
+            <View style={styles.buttonContainer}>
+                <View style={styles.buttonSpacing}>
+                    <Button title="Back" onPress={() => navigation.goBack()} />
+                </View>
+                <View style={styles.buttonSpacing}>
+                    <Button title="Back to Home" onPress={() => navigation.navigate('Home')} />
+                </View>
             </View>
         </View>
     );
