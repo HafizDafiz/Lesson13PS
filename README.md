@@ -1,5 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/TUcDWe6b)
-# [App Name]
+# [HDB price check app]
 
 Welcome to the repository for **[App Name]**! This document serves as a guide for furnishing important details about your app. Update the sections below to provide a comprehensive and informative README.
 
@@ -44,7 +44,7 @@ Showcase the app’s interface with relevant screenshots. Add meaningful caption
 
 Provide a short demo video or walkthrough of the app.
 
-[![Watch Video](https://img.youtube.com/vi/somevideoplaceholder/0.jpg)](https://www.youtube.com/watch?v=somevideoplaceholder)
+[![Watch Video](https://www.youtube.com/shorts/OgoNKtW6Kfg)
 
 *(Replace the link with your actual video walkthrough.)*
 
